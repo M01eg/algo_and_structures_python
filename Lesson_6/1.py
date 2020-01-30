@@ -1,3 +1,5 @@
+#### Моя ОС: Windows 7 64-bit, Python 3.8.1 64-bit ####
+
 '''
  Урок 6
  Задание 1
@@ -12,6 +14,8 @@
 Также укажите в комментариях версию Python и разрядность
 вашей ОС.
 '''
+
+# Моя ОС: Windows 7 64-bit, Python 3.8.1 64-bit
 
 import numpy as np
 from urllib.request import urlopen
@@ -148,7 +152,7 @@ Line #    Mem usage    Increment   Line Contents
     55
     56    145.7 MiB    117.8 MiB       c = multiply_random_matrices()         #В данном случае память матриц a и b высвобождается
     57    145.7 MiB      0.0 MiB       print("Multiplication successful!")    #после выхода из функции, потому что Питон определяет,
-    58                                                                        #что они не имеют ссылок, а c - имеет ссылку
+    58                                                                        #что они не имеют ссылок, а матрица c - имеет ссылку
     59    145.7 MiB      0.0 MiB       try:
     60    149.2 MiB      3.4 MiB           urlopen("https://habr.com/ru/post/000/")
     61    149.2 MiB      0.0 MiB       except:
